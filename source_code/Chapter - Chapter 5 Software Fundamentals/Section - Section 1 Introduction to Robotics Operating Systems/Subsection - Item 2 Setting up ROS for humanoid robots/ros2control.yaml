@@ -1,0 +1,17 @@
+controller_manager:
+  ros__parameters:
+    update_rate: 500                       # controller loop in Hz
+    joint_state_broadcaster:
+      type: joint_state_broadcaster/JointStateBroadcaster
+    forward_position_controller:
+      type: joint_trajectory_controller/JointTrajectoryController
+      joints:                               # list of lower-body joints
+        - "left_hip_pitch"
+        - "left_hip_roll"
+        - "left_knee"
+        - "right_hip_pitch"
+        - "right_hip_roll"
+        - "right_knee"
+      state_publish_rate: 100               # joint state publish Hz
+      constraints:
+        goal_time: 0.5                      # max allowed time to reach goal
