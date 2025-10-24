@@ -15,24 +15,6 @@
 View the live site at [burstbookspublishing.github.io/humanoid-robots-with-ai-and-simulation](https://burstbookspublishing.github.io/humanoid-robots-with-ai-and-simulation/)
 ---
 
----
-## Chapter 2. Anatomy of Humanoid Robots
-### Section 1. Mechanical Anatomy
-- Skeletal structure of humanoid robots
-- Actuators and their applications
-- Degrees of freedom in humanoid robots
-- Challenges in humanoid balance
 
-### Section 2. Electrical Components
-- Sensors and their placement
-- Power systems: Batteries vs wired
-- Microcontrollers and processors
-- Communication systems
 
-### Section 3. Integration of Mechanical and Electrical Systems
-- Synchronization challenges
-- Designing for efficiency
-- Maintenance considerations
-- Troubleshooting common issues
 
----
